@@ -1,6 +1,6 @@
 // @name        Test GitHub Plugin
-// @version     1.0.1
-// @description Тестовый скрипт для проверки автообновлений и обработки команд
+// @version     1.0.2
+// @description изменение #1
 // @changelog   Добавлена обработка команды .log; Добавлен вывод статуса с GitHub
 
 (function() {
@@ -21,10 +21,10 @@
         if (cleanText === ".log" || cleanText === ".logc" || cleanText === ".лог") {
             try {
                 // Выводим всплывающее уведомление (toast)
-                wg.toast("successfully гитхаб");
+                wg.toast("successfully привет");
             } catch (e) {
                 try {
-                    wg.alert("successfully гитхаб");
+                    wg.alert("successfully привет");
                 } catch (e2) {}
             }
 
