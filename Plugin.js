@@ -1,6 +1,6 @@
 // @name        Test GitHub Plugin
-// @version     1.0.2
-// @description изменение #1
+// @version     1.0.3
+// @description изменение #2
 // @changelog   Добавлена обработка команды .log; Добавлен вывод статуса с GitHub
 
 wg.on("onSendMessage", function(msg) {
@@ -15,7 +15,7 @@ wg.on("onSendMessage", function(msg) {
     if (cleanText === ".log" || cleanText === ".logc" || cleanText === ".лог") {
         
         // Показываем уведомление
-        wg.toast("successfully привет"); //[span_5](start_span)[span_5](end_span)
+        wg.toast("successfully барабулька"); //[span_5](start_span)[span_5](end_span)
         
         // Очищаем поле ввода 
         try { wg.setInputText(""); } catch (e) {} //[span_6](start_span)[span_6](end_span)
